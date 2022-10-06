@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mewkiz/flac"
-	"github.com/mewkiz/flac/meta"
+	"github.com/apatterson-cogo/flac"
+	"github.com/apatterson-cogo/flac/meta"
 )
 
 var golden = []struct {

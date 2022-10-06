@@ -3,8 +3,8 @@ package utf8
 import (
 	"io"
 
-	"github.com/mewkiz/flac/internal/ioutilx"
-	"github.com/mewkiz/pkg/errutil"
+	"github.com/apatterson-cogo/flac/internal/ioutilx"
+	"github.com/apatterson-cogo/pkg/errutil"
 )
 
 // Encode encodes x as a "UTF-8" coded number.

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/mewkiz/flac/internal/ioutilx"
+	"github.com/apatterson-cogo/flac/internal/ioutilx"
 )
 
 const (

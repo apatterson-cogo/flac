@@ -19,8 +19,8 @@
 // for a brief introduction of their respective formats.
 //
 //    [1]: https://www.xiph.org/flac/format.html#stream
-//    [2]: https://godoc.org/github.com/mewkiz/flac/meta
-//    [3]: https://godoc.org/github.com/mewkiz/flac/frame
+//    [2]: https://godoc.org/github.com/apatterson-cogo/flac/meta
+//    [3]: https://godoc.org/github.com/apatterson-cogo/flac/frame
 //
 // Note: the Encoder API is experimental until the 1.1.x release. As such, it's
 // API is expected to change.
@@ -34,8 +34,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/mewkiz/flac/frame"
-	"github.com/mewkiz/flac/meta"
+	"github.com/apatterson-cogo/flac/frame"
+	"github.com/apatterson-cogo/flac/meta"
 )
 
 // A Stream contains the metadata blocks and provides access to the audio frames

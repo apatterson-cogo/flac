@@ -6,9 +6,9 @@ import (
 	"io"
 
 	"github.com/icza/bitio"
-	"github.com/mewkiz/flac/internal/ioutilx"
-	"github.com/mewkiz/flac/meta"
-	"github.com/mewkiz/pkg/errutil"
+	"github.com/apatterson-cogo/flac/internal/ioutilx"
+	"github.com/apatterson-cogo/flac/meta"
+	"github.com/apatterson-cogo/pkg/errutil"
 )
 
 // --- [ Metadata block ] ------------------------------------------------------

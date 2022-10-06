@@ -8,11 +8,11 @@ import (
 
 	"github.com/go-audio/audio"
 	"github.com/go-audio/wav"
-	"github.com/mewkiz/flac"
-	"github.com/mewkiz/flac/frame"
-	"github.com/mewkiz/flac/meta"
-	"github.com/mewkiz/pkg/osutil"
-	"github.com/mewkiz/pkg/pathutil"
+	"github.com/apatterson-cogo/flac"
+	"github.com/apatterson-cogo/flac/frame"
+	"github.com/apatterson-cogo/flac/meta"
+	"github.com/apatterson-cogo/pkg/osutil"
+	"github.com/apatterson-cogo/pkg/pathutil"
 	"github.com/pkg/errors"
 )
 

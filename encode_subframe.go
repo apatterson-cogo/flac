@@ -2,9 +2,9 @@ package flac
 
 import (
 	"github.com/icza/bitio"
-	"github.com/mewkiz/flac/frame"
-	iobits "github.com/mewkiz/flac/internal/bits"
-	"github.com/mewkiz/pkg/errutil"
+	"github.com/apatterson-cogo/flac/frame"
+	iobits "github.com/apatterson-cogo/flac/internal/bits"
+	"github.com/apatterson-cogo/pkg/errutil"
 )
 
 // --- [ Subframe ] ------------------------------------------------------------

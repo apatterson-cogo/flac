@@ -5,11 +5,11 @@ import (
 	"io"
 
 	"github.com/icza/bitio"
-	"github.com/mewkiz/flac/frame"
-	"github.com/mewkiz/flac/internal/hashutil/crc16"
-	"github.com/mewkiz/flac/internal/hashutil/crc8"
-	"github.com/mewkiz/flac/internal/utf8"
-	"github.com/mewkiz/pkg/errutil"
+	"github.com/apatterson-cogo/flac/frame"
+	"github.com/apatterson-cogo/flac/internal/hashutil/crc16"
+	"github.com/apatterson-cogo/flac/internal/hashutil/crc8"
+	"github.com/apatterson-cogo/flac/internal/utf8"
+	"github.com/apatterson-cogo/pkg/errutil"
 )
 
 // --- [ Frame ] ---------------------------------------------------------------

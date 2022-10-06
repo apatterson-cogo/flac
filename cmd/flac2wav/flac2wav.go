@@ -10,9 +10,9 @@ import (
 
 	"github.com/go-audio/audio"
 	"github.com/go-audio/wav"
-	"github.com/mewkiz/flac"
-	"github.com/mewkiz/pkg/osutil"
-	"github.com/mewkiz/pkg/pathutil"
+	"github.com/apatterson-cogo/flac"
+	"github.com/apatterson-cogo/pkg/osutil"
+	"github.com/apatterson-cogo/pkg/pathutil"
 	"github.com/pkg/errors"
 )
 
@@ -88,7 +88,7 @@ func flac2wav(path string, force bool) error {
 					// as signed values (ref page 59-60 of [1]).
 					//
 					// [1]: http://www-mmsp.ece.mcgill.ca/Documents/AudioFormats/WAVE/Docs/riffmci.pdf
-					// ref: https://github.com/mewkiz/flac/issues/51#issuecomment-1046183409
+					// ref: https://github.com/apatterson-cogo/flac/issues/51#issuecomment-1046183409
 					const midpointValue = 0x80
 					sample += midpointValue
 				}
