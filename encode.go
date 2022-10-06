@@ -7,7 +7,7 @@ import (
 
 	"github.com/icza/bitio"
 	"github.com/apatterson-cogo/flac/meta"
-	"github.com/apatterson-cogo/pkg/errutil"
+	"github.com/mewkiz/pkg/errutil"
 )
 
 // An Encoder represents a FLAC encoder.

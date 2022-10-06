@@ -4,7 +4,7 @@ import (
 	"github.com/icza/bitio"
 	"github.com/apatterson-cogo/flac/frame"
 	iobits "github.com/apatterson-cogo/flac/internal/bits"
-	"github.com/apatterson-cogo/pkg/errutil"
+	"github.com/mewkiz/pkg/errutil"
 )
 
 // --- [ Subframe ] ------------------------------------------------------------

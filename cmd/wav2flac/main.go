@@ -11,8 +11,8 @@ import (
 	"github.com/apatterson-cogo/flac"
 	"github.com/apatterson-cogo/flac/frame"
 	"github.com/apatterson-cogo/flac/meta"
-	"github.com/apatterson-cogo/pkg/osutil"
-	"github.com/apatterson-cogo/pkg/pathutil"
+	"github.com/mewkiz/pkg/osutil"
+	"github.com/mewkiz/pkg/pathutil"
 	"github.com/pkg/errors"
 )
 

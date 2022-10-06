@@ -8,7 +8,7 @@ import (
 	"github.com/icza/bitio"
 	"github.com/apatterson-cogo/flac/internal/ioutilx"
 	"github.com/apatterson-cogo/flac/meta"
-	"github.com/apatterson-cogo/pkg/errutil"
+	"github.com/mewkiz/pkg/errutil"
 )
 
 // --- [ Metadata block ] ------------------------------------------------------

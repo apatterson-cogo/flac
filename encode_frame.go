@@ -9,7 +9,7 @@ import (
 	"github.com/apatterson-cogo/flac/internal/hashutil/crc16"
 	"github.com/apatterson-cogo/flac/internal/hashutil/crc8"
 	"github.com/apatterson-cogo/flac/internal/utf8"
-	"github.com/apatterson-cogo/pkg/errutil"
+	"github.com/mewkiz/pkg/errutil"
 )
 
 // --- [ Frame ] ---------------------------------------------------------------

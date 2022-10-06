@@ -4,7 +4,7 @@ import (
 	"io"
 
 	"github.com/apatterson-cogo/flac/internal/ioutilx"
-	"github.com/apatterson-cogo/pkg/errutil"
+	"github.com/mewkiz/pkg/errutil"
 )
 
 // Encode encodes x as a "UTF-8" coded number.
